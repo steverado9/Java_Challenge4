@@ -1,11 +1,8 @@
+package Challenge;
+
 //6. Write a Java program to create a class called "Employee" with a name,
 //job title, and salary attributes, and methods to calculate and update salary.
 public class Employee {
-    public static void main(String[] args) {
-        Employee stephen = new Employee();
-        int stephenSalary = stephen.calculateSalaray(20);
-        System.out.println("Stephen's salary is: " + stephenSalary);
-    }
     String jobTitle, name;
     int salary;
 
@@ -14,6 +11,7 @@ public class Employee {
         int timeInHours = 9;
         int result = amountInDollars * timeInHours * days;
         this.salary = result;
+        System.out.println("Stephen's salary is: " + result);
         return this.salary;
     }
 

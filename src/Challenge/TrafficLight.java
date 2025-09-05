@@ -1,16 +1,8 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.PriorityQueue;
+package Challenge;
 
 // Write a Java program to create class called "TrafficLight" with attributes
 //for color and duration, and methods to change the color and check for red or green.
 public class TrafficLight {
-    public static void main(String[] args) {
-       TrafficLight tl = new TrafficLight();
-       tl.changeColor();
-       tl.changeColor();
-       tl.redOrGreen();
-    }
     String color;
     int duration;
     public String[] colors = {"red", "yellow", "green"};

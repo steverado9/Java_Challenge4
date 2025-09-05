@@ -1,3 +1,5 @@
+package Challenge;
+
 // Write a Java program to create a class called "Circle" with a radius attribute.
 // You can access and modify this attribute. Calculate the area and circumference of the circle.
 public class Circle {
@@ -15,22 +17,14 @@ public class Circle {
     public int area(int radius) {
         this.radius = radius;
         int result = (int) (3.142 * this.radius * this.radius);
+        System.out.println("The Area is : " + result);
         return result;
     };
 
     public int circumference(int radius) {
         this.radius = radius;
         int result = (int) (2 * 3.142 * this.radius);
+        System.out.println("The circumference is : " + result);
         return result;
     };
-
-    public static void main(String[] args) {
-        Circle myObj = new Circle();
-        int circumference =  myObj.circumference(7);
-        int area = myObj.area(7);
-
-        System.out.println("The circumference is : " + circumference);
-        System.out.println("The Area is : " + area);
-
-    }
 }

@@ -34,26 +34,39 @@ and courses attributes, and methods to add and remove courses.
 11. Write a Java program to create a class called "Library" with a collection
  of books and methods to add and remove books.
 
-12. Write a Java program to create a class called "Airplane"
+12. Write a Java program to create a class called Airplane
 with a flight number, destination, and departure time attributes,
 and methods to check flight status and delay.
 
 13. Write a Java program to create a class called "Inventory" with a collection
  of products and methods to add and remove products, and to check for low inventory.
 
-14. Write a Java program to create a class called "School" with attributes for students, teachers, and classes, and methods to add and remove students and teachers, and to create classes.
+14. Write a Java program to create a class called "School" with
+attributes for students, teachers, and classes, and methods to add
+and remove students and teachers, and to create classes.
 
-15. Write a Java program to create a class called "MusicLibrary" with a collection of songs and methods to add and remove songs, and to play a random song.
+15. Write a Java program to create a class called "MusicLibrary" with
+a collection of songs and methods to add and remove songs, and to play a random song.
 
-16. Write a Java program to create a class called "Shape" with abstract methods for calculating area and perimeter, and subclasses for "Rectangle", "Circle", and "Triangle".
+16. Write a Java program to create a class called "Shape" with abstract
+methods for calculating area and perimeter, and subclasses
+for "Rectangle", "Circle", and "Triangle".
 
-17. Write a Java program to create a class called "Movie" with attributes for title, director, actors, and reviews, and methods for adding and retrieving reviews.
+17. Write a Java program to create a class called "Movie" with attributes for
+title, director, actors, and reviews, and methods for adding and retrieving reviews.
 
-18. Write a Java program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.
+18. Write a Java program to create a class called "Restaurant" with
+attributes for menu items, prices, and ratings, and methods to add and
+remove items, and to calculate average rating.
 
-19. Write a Java program to create a class with methods to search for flights and hotels, and to book and cancel reservations.
+19. Write a Java program to create a class with methods to search for
+flights and hotels, and to book and cancel reservations.
 
-20. Write a Java program to create a class called "BankAccount" with attributes for account number, account holder's name, and balance. Include methods for depositing and withdrawing money, as well as checking the balance. Create a subclass called "SavingsAccount" that adds an interest rate attribute and a method to apply interest.
+20. Write a Java program to create a class called "BankAccount"
+with attributes for account number, account holder's name, and balance.
+Include methods for depositing and withdrawing money, as well as checking the balance.
+Create a subclass called "SavingsAccount" that adds an interest rate attribute
+and a method to apply interest.
 
 21. Write a Java program to create a class called "Vehicle" with attributes for make, model, and year. Create subclasses "Car" and "Truck" that add specific attributes like trunk size for cars and payload capacity for trucks. Implement a method to display vehicle details in each subclass.
 

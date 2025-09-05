@@ -1,16 +1,11 @@
-import java.util.ArrayList;
+package Challenge;
+
 import java.util.Collection;
 import java.util.PriorityQueue;
-
 //Write a Java program to create a class called "Bank" with a collection of accounts
 // and methods to add and remove accounts, and to deposit and withdraw money.
 // Also define a class called "Account" to maintain account details of a particular customer.
 public class Bank {
-    public static void main(String[] args) {
-        Bank account = new Bank();
-        account.add(1);
-        account.remove(1);
-    }
     Collection<Integer> accounts = new PriorityQueue<>();
     int amount = 100;
 
