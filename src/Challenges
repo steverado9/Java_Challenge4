@@ -68,33 +68,66 @@ Include methods for depositing and withdrawing money, as well as checking the ba
 Create a subclass called "SavingsAccount" that adds an interest rate attribute
 and a method to apply interest.
 
-21. Write a Java program to create a class called "Vehicle" with attributes for make, model, and year. Create subclasses "Car" and "Truck" that add specific attributes like trunk size for cars and payload capacity for trucks. Implement a method to display vehicle details in each subclass.
+21. Write a Java program to create a class called "Vehicle" with attributes for
+make, model, and year. Create subclasses "Car" and "Truck" that add specific
+attributes like trunk size for cars and payload capacity for trucks.
+Implement a method to display vehicle details in each subclass.
 
-22. Write a Java program to create a class called "Customer" with attributes for name, email, and purchase history. Implement methods to add purchases to the history and calculate total expenditure. Create a subclass "LoyalCustomer" that adds a discount rate attribute and a method to apply the discount.
+22. Write a Java program to create a class called "Customer" with
+attributes for name, email, and purchase history.
+Implement methods to add purchases to the history and calculate total expenditure.
+Create a subclass "LoyalCustomer" that adds a discount rate attribute
+and a method to apply the discount.
 
-23. Write a Java program to create a class called "Course" with attributes for course name, instructor, and credits. Create a subclass "OnlineCourse" that adds attributes for platform and duration. Implement methods to display course details and check if the course is eligible for a certificate based on duration.
+23. Write a Java program to create a class called "Course" with attributes for course
+ name, instructor, and credits. Create a subclass "OnlineCourse" that
+ adds attributes for platform and duration. Implement methods to display course
+  details and check if the course is eligible for a certificate based on duration.
 
-24. Write a Java program to create a class called "ElectronicsProduct" with attributes for product ID, name, and price. Implement methods to apply a discount and calculate the final price. Create a subclass " WashingMachine" that adds a warranty period attribute and a method to extend the warranty.
+24. Write a Java program to create a class called "ElectronicsProduct" with
+attributes for product ID, name, and price. Implement methods to apply a discount
+and calculate the final price. Create a subclass " WashingMachine" that adds
+a warranty period attribute and a method to extend the warranty.
 
-25. Write a Java program to create a class called "Building" with attributes for address, number of floors, and total area. Create subclasses "ResidentialBuilding" and "CommercialBuilding" that add specific attributes like number of apartments for residential and office space for commercial buildings. Implement a method to calculate the total rent for each subclass.
+25. Write a Java program to create a class called "Building" with attributes
+for address, number of floors, and total area. Create subclasses "ResidentialBuilding"
+and "CommercialBuilding" that add specific attributes like number of apartments for
+residential and office space for commercial buildings. Implement a method to
+calculate the total rent for each subclass.
 
-26. Write a Java program to create a class called "Event" with attributes for event name, date, and location. Create subclasses "Seminar" and "MusicalPerformance" that add specific attributes like number of speakers for seminars and performer list for concerts. Implement methods to display event details and check for conflicts in the event schedule.
+26. Write a Java program to create a class called "Event" with attributes for
+event name, date, and location. Create subclasses "Seminar" and "MusicalPerformance"
+that add specific attributes like number of speakers for seminars and performer list
+for concerts. Implement methods to display event details and check for
+conflicts in the event schedule.
 
-27. Write a Java program to create a class called "CustomerOrder" with attributes for order ID, customer, and order date. Create a subclass "OnlineOrder" that adds attributes for delivery address and tracking number. Implement methods to calculate delivery time based on the address and update the tracking status.
+27. Write a Java program to create a class called "CustomerOrder" with
+attributes for order ID, customer, and order date. Create a subclass "OnlineOrder"
+that adds attributes for delivery address and tracking number. Implement methods
+to calculate delivery time based on the address and update the tracking status.
 
-28. Write a Java program to create a class called "Reservation" with attributes for reservation ID, customer name, and date. Create subclasses "ResortReservation" and "RailwayReservation" that add specific attributes like room number for hotels and seat number for flights. Implement methods to check reservation status and modify reservation details.
+28. Write a Java program to create a class called "Reservation" with attributes for
+reservation ID, customer name, and date. Create subclasses "ResortReservation"
+and "RailwayReservation" that add specific attributes like room number for hotels
+and seat number for flights. Implement methods to check reservation status and
+modify reservation details.
 
-29. Write a Java program to create a class called "Pet" with attributes for name, species, and age. Create subclasses "Dog" and "Bird" that add specific attributes like favorite toy for dogs and wing span for birds. Implement methods to display pet details and calculate the pet's age in human years.
+29. Write a Java program to create a class called "Pet" with attributes for name,
+species, and age. Create subclasses "Dog" and "Bird" that add specific attributes
+like favorite toy for dogs and wing span for birds. Implement methods to display
+pet details and calculate the pet's age in human years.
 
-30. Write a Java program to create a class called "GymMembership" with attributes for member name, membership type, and duration. Create a subclass "PremiumMembership" that adds attributes for personal trainer availability and spa access. Implement methods to calculate membership fees and check for special offers based on membership type.
+30. Write a Java program to create a class called "GymMembership" with attributes
+for member name, membership type, and duration. Create a subclass "PremiumMembership"
+ that adds attributes for personal trainer availability and spa access.
+ Implement methods to calculate membership fees and check for special offers
+ based on membership type.
 
-Kelvin Obukome, 5:07 AM
 
 ArrayList
 Write a program to sort an ArrayList of Strings alphabetically.
 Write a program to find the maximum element from an ArrayList of Integers.
 Write a program to remove all duplicate elements from an ArrayList.
-Create a LinkedList and perform various operations like add, remove, and iterate over it.
 Write a program to find the intersection of two ArrayLists.
 Write a program to shuffle the elements of an ArrayList.
 Write a program to find the second-largest element in an ArrayList of Integers.
