@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.CustomerOrder;
 //27. Write a Java program to create a class called "CustomerOrder" with
 //attributes for order ID, customer, and order date. Create a subclass "OnlineOrder"
 //that adds attributes for delivery address and tracking number. Implement methods
@@ -6,11 +6,6 @@ package Challenge;
 public class CustomerOrder {
     int orderID;
     String customer, orderDate;
-
-    class OnlineOrder {
-        String deliveryAddress;
-        int trackingNumber;
-    }
 
     public void calculateDeliveryTime () {}
 

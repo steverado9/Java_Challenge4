@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.Customer;
 //22. Write a Java program to create a class called "Customer" with
 //attributes for name, email, and purchase history.
 //Implement methods to add purchases to the history and calculate total expenditure.
@@ -11,11 +11,5 @@ public class Customer {
     }
     public void calculateTotalExpenditure() {
 
-    }
-
-    class LoyalCustomer {
-        String discountRate;
-
-        public void applyDiscount() {}
     }
 }

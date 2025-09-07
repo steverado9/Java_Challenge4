@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.Reservation2;
 //28. Write a Java program to create a class called "Reservation" with attributes for
 //reservation ID, customer name, and date. Create subclasses "ResortReservation"
 //and "RailwayReservation" that add specific attributes like room number for hotels
@@ -7,15 +7,6 @@ package Challenge;
 public class Reservation2 {
     int reservationID;
     String customerName, date;
-
-    class ResortReservation {
-        int roomNumber;
-
-    }
-
-    class RailwayReservation {
-        int seatNumber;
-    }
 
     public void reservationStatus() {}
 

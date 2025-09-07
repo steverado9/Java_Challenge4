@@ -1,5 +1,7 @@
 package Test;
 import Challenge.*;
+import Challenge.Bank.Bank;
+import Challenge.BankAccount.BankAccount;
 
 
 public class Class {

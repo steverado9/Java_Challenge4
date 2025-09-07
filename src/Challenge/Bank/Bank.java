@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.Bank;
 
 import java.util.Collection;
 import java.util.PriorityQueue;
@@ -30,9 +30,4 @@ public class Bank {
     }
 }
 
-class Account {
-    Bank account1 = new Bank();
-    String name = "Stephen";
-    int AccountNumber = 1;
-    int Amount = account1.amount;
-}
+

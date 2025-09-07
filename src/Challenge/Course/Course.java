@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.Course;
 //23. Write a Java program to create a class called "Course" with attributes for course
 // name, instructor, and credits. Create a subclass "OnlineCourse" that
 // adds attributes for platform and duration. Implement methods to display course
@@ -6,12 +6,4 @@ package Challenge;
 public class Course {
     String courseName, instructor, credits;
 
-    class OnlineCourse {
-        String platform, duration;
-
-        public void displayCourseDetails() {}
-
-        public void eligibleForCertificate() {}
-
-    }
 }

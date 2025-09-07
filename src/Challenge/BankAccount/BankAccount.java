@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.BankAccount;
 //20. Write a Java program to create a class called "BankAccount"
 //with attributes for account number, account holder's name, and balance.
 //Include methods for depositing and withdrawing money, as well as checking the balance.
@@ -27,11 +27,4 @@ public class BankAccount {
         System.out.println("Your balance is: " + balance);
     }
 
-    class SavingsAccount {
-        int interestRate;
-
-        public void applyInterest(int value) {
-            System.out.println("you have applied interest");
-        }
-    }
 }

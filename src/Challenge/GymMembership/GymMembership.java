@@ -1,4 +1,4 @@
-package Challenge;
+package Challenge.GymMembership;
 //30. Write a Java program to create a class called "GymMembership" with attributes
 //for member name, membership type, and duration. Create a subclass "PremiumMembership"
 //that adds attributes for personal trainer availability and spa access.
@@ -6,11 +6,6 @@ package Challenge;
 //based on membership type.
 public class GymMembership {
     String memberName, membershipType, duration;
-
-    class PremiumMembership {
-        boolean personalTrainerAvailability;
-        String spaAccess;
-    }
 
     public void calculateMembershipFees() {}
 
