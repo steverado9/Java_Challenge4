@@ -1,8 +1,6 @@
 package ArrayList;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 //Write a program to find the second-largest element
 // in an ArrayList of Integers.
@@ -16,29 +14,9 @@ public class SecondLargestElement {
         list.add(4);
         list.add(5);
 
-        int largestNum = list.get(0);
-        System.out.println(largestNum);
-
-        int secondLargestNum = list.get(0);
-        System.out.println(secondLargestNum);
-
-        Iterator<Integer> itr = list.iterator();
-
-        //get the largest number
-        while(itr.hasNext()) {
-            if ( itr.next() > largestNum ) {
-                largestNum = itr.next();
-            }
-        }
-
-        //get second-largest number
-//        for (int element : list) {
-//            if(element > secondLargestNum && element < largestNum) {
-//                secondLargestNum = element;
-//            }
-//        }
+        Collections.sort(list);
 
         //Print second largest number
-        System.out.println("The second largest number is : " + secondLargestNum);
+        System.out.println("The second largest number is : " + list.get(list.size() - 2));
     }
 }
