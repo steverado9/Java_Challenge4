@@ -4,7 +4,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 //Write a program to find the intersection of multiple Sets.
-public class intersectionOfMultipleSet {
+public class IntersectionOfMultipleSet {
+
+    public static void intersectionOfMultipleSet(Set set1, Set set2, Set set3) {
+        //retinAll is used to retain similar elements
+        set1.retainAll(set2);
+        set1.retainAll(set3);
+        System.out.println(set1);
+    }
     public static void main(String[] args) {
         Set<String> set1 = new HashSet<>();
         set1.add("bnxn");
@@ -21,9 +28,7 @@ public class intersectionOfMultipleSet {
         set3.add("pyschoyp");
         set3.add("bnxn");
 
-        //retinAll is used to retain similar elements
-        set1.retainAll(set2);
-        set1.retainAll(set3);
-        System.out.println(set1);
+        intersectionOfMultipleSet(set1, set2, set3);
+
     }
 }

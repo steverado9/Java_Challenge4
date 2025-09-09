@@ -7,6 +7,19 @@ import java.util.List;
 
 //Write a program to shuffle the elements of an ArrayList.
 public class ShuffleElements {
+    public static void shuffleElements(List list) {
+        //use the collection.shuffle methodo to shuffle the arraylist
+        Collections.shuffle(list);
+        System.out.println("After shuffling Arraylist");
+        //reassign the itr variable to the iterator with
+        // the shuffled array elements
+        Iterator<String> itr = list.iterator();
+
+        while(itr.hasNext()) {
+            System.out.println(itr.next());;
+        }
+
+    }
     public static void main(String[] args) {
         //creating an array list using the list interface
         List<String> elements = new ArrayList<>();
@@ -24,14 +37,6 @@ public class ShuffleElements {
             System.out.println(itr.next());
         }
 
-        //use the collection.shuffle methodo to shuffle the arraylist
-        Collections.shuffle(elements);
-        System.out.println("After shuffling Arraylist");
-        //reassign the itr variable to the iterator with
-        // the shuffled array elements
-        itr = elements.iterator();
-        while(itr.hasNext()) {
-            System.out.println(itr.next());;
-        }
+        shuffleElements(elements);
     }
 }

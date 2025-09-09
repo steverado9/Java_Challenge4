@@ -6,6 +6,17 @@ import java.util.List;
 
 //Write a program to find the maximum element from an ArrayList of Integers.
 public class FindMaxElement {
+
+    public static int maxElement(List<Integer> list) {
+        Integer maxNumber = 0;
+
+        for (int element : list) {
+            if ( element > maxNumber) {
+                maxNumber = element;
+            }
+        }
+        return maxNumber;
+    }
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();
 
@@ -15,15 +26,8 @@ public class FindMaxElement {
         numbers.add(4);
         numbers.add(5);
 
-        Integer maxNumber = numbers.get(0);
+        int maxNumber = maxElement(numbers);
 
-        Iterator<Integer> itr = numbers.iterator();
-
-        while(itr.hasNext()) {
-            if (itr.next() > maxNumber) {
-                maxNumber = itr.next();
-            }
-        }
         System.out.println("Maximum number = " + maxNumber);
 
     }

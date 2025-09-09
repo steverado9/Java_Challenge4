@@ -7,6 +7,15 @@ import java.util.Set;
 
 //Write a program to remove all duplicate elements from an ArrayList.
 public class Removeduplicate {
+    public static void removeduplicate(List l1) {
+        Set<Integer> removeDuplicate = new HashSet<>(l1);
+
+        l1.clear();
+
+        l1.addAll(removeDuplicate);
+
+        System.out.println(l1);
+    }
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>();
         numbers.add(1);
@@ -20,14 +29,7 @@ public class Removeduplicate {
 
         System.out.println(numbers);
 
-        Set<Integer> removeDuplicate = new HashSet<>(numbers);
-
-        numbers.clear();
-
-        numbers.addAll(removeDuplicate);
-
-        System.out.println(numbers);
-
+        removeduplicate(numbers);
 
     }
 }

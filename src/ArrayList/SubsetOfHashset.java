@@ -5,6 +5,10 @@ import java.util.Set;
 
 //Write a program to check if a HashSet is a subset of another HashSet.
 public class SubsetOfHashset {
+    public static boolean subsetOfHashset(Set s1, Set s2) {
+        boolean result = s1.containsAll(s2);
+        return result;
+    }
     public static void main(String[] args) {
         Set<String> set1 = new HashSet<>();
         set1.add("rema");
@@ -21,7 +25,7 @@ public class SubsetOfHashset {
         set1.add("mavo");
         set1.add("nsg");
 
-        boolean result = set1.containsAll(set2);
+        boolean result = subsetOfHashset(set1, set2);
 
         System.out.println("is set2 a subset of set1 " + result);
 

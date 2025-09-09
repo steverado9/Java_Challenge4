@@ -9,5 +9,4 @@ public class ElectronicsProduct {
     public void discount() {}
 
     public void finalPrice() {}
-
 }
